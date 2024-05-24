@@ -1,0 +1,14 @@
+{% extend 'base.html' %}
+
+{% block head%}
+    <title>flask tutorail</title>
+{% endlock%}
+
+
+{%block body%}
+    <from action = "/" method = "post">
+        <label for = "name">name : </label>
+        <input type = "text" name = "name">
+        <input type = "submit" value="submit">
+
+{%endlock%}
